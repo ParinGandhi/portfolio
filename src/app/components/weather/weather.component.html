@@ -1,0 +1,8 @@
+<div *ngIf="weatherLoaded">
+  <mat-card class="example-card">
+    <mat-card-content>
+      <img [src]="weatherIcon" matTooltip="{{cityName}} - {{weather}}" class="float-left" alt="Icon of current weather">
+      <h3>{{temp}}&deg;F</h3>
+    </mat-card-content>
+  </mat-card>
+</div>
