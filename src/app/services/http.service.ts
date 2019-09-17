@@ -16,4 +16,8 @@ export class HttpService {
   getWeather(): Observable<any> {
     return this.http.get<any[]>(URL.WEATHER_API + APP_CONSTANTS.WEATHER_API_KEY);
   }
+
+  getQuotes(): Observable<any> {
+    return this.http.get<any[]>(URL.QUOTES_API);
+  }
 }

@@ -1,0 +1,15 @@
+.post::before {
+  left: -200px;
+  content: '\201c';
+}
+
+// .post::before,
+// .post::after {
+//   position: absolute;
+//   top: 10px;
+//   font-size: 350px;
+//   color: #16B6DF;
+//   font-family: Arial;
+//   font-weight: bold;
+//   line-height: 300px;
+// }

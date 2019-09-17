@@ -9,13 +9,15 @@ import { WeatherComponent } from './components/weather/weather.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule, MatTooltipModule } from '@angular/material';
+import { QuotesComponent } from './components/quotes/quotes.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    WeatherComponent
+    WeatherComponent,
+    QuotesComponent
   ],
   imports: [
     BrowserModule,
